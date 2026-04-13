@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Cinnamon Restaurant | Fine Dining Experience</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+IE:wght@100..400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Italianno&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Allerta&family=Bebas+Neue&family=Lobster&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="stylecss.css">
+</head>
+
+<body>
+
+<!-- Social icons top bar -->
+<div class="footerup col-12 text-center">
+    <i class="icons fab fa-facebook-f"></i>
+    <i class="icons fab fa-twitter"></i>
+    <i class="icons fab fa-instagram"></i>
+    <i class="icons fab fa-google"></i>
+</div>
+
+<!---nav - PERFECT RESPONSIVE NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid px-3 px-lg-5">
+        <!-- Brand - visible on all screens, left on mobile, hidden in collapse -->
+        <a class="navbar-brand company-brand" href="#">CINNAMON <br> RESTAURANT</a>
+        
+        <!-- Toggler button - right on mobile -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Collapsible content - no brand inside -->
+        <div class="collapse navbar-collapse" id="mainNavbar">
+            <!-- Left nav links group -->
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">MENU</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">PAGES</a>
+                </li>
+            </ul>
+            
+            <!-- Centered Brand for large screens only (hidden on mobile) -->
+            <div class="center-brand d-none d-lg-block">
+                <a class="company-brand-centered" href="#">CINNAMON <br> RESTAURANT</a>
+            </div>
+            
+            <!-- Right nav links group -->
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">NEWS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">EVENT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">DELIVERY</a>
+                </li>
+                <li class="nav-item d-lg-none">
+                    <a class="nav-link reservation-mobile" href="#">RESERVATION</a>
+                </li>
+            </ul>
+            
+            <!-- Desktop reservation button -->
+            <form class="d-none d-lg-block ms-3">
+                <input class="form-control search" type="search" placeholder="RESERVATION" aria-label="Reservation">
+            </form>
+        </div>
+    </div>
+</nav>
+
+<!----------------------HERO SECTION-------->
+<section class="hero">
+    <div class="container">
+        <div class="row py-5">
+            <div class="col-lg-12 pt-5 text-center">
+                <h1 class="best pt-5 mb-2">Best food in Town</h1>
+                <h1 class="cinanon mt-2">CINNAMON</h1>
+                <button class="btn1 mt-3">READ MORE</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!----------------------OUR STORY SECTION-------->
+<section class="another">
+    <div class="container">
+        <div class="row py-4">
+            <div class="col-lg-12 text-center">
+                <h1 class="begin">New Beginnings</h1>
+                <h1 class="story">OUR STORY</h1>
+                <h5 class="french mx-auto">Quisque fermentum nulla vitae sapien aliquam, et egestas <br class="d-none d-md-block"> sem volutpat. Sed ullamcorper rutrum purus quis temptus <br class="d-none d-md-block"> Vestibulum vestibulum quis enim a varius.</h5>
+                <button class="btn2 mt-4">ABOUT US</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--section 3: image gallery-->
+<section class="img-section pt-4 mt-2">
+    <div class="container">
+        <div class="row g-0">
+            <!-- Big Image -->
+            <div class="col-lg-6 img-box">
+                <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=1974&auto=format" class="img-fluid w-100" alt="Chef preparing dish">
+            </div>
+            <!-- Small Images Grid -->
+            <div class="col-lg-6 p-0">
+                <div class="row g-0">
+                    <div class="col-6 p-0 img-box">
+                        <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=2080&auto=format" class="img-fluid w-100" alt="Delicious plate">
+                    </div>
+                    <div class="col-6 p-0 img-box">
+                        <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=1981&auto=format" class="img-fluid w-100" alt="Pizza">
+                    </div>
+                    <div class="col-6 p-0 img-box">
+                        <img src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?q=80&w=2065&auto=format" class="img-fluid w-100" alt="Salmon dish">
+                    </div>
+                    <div class="col-6 p-0 img-box">
+                        <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=2070&auto=format" class="img-fluid w-100" alt="Fine dining">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--- section 4: 4-grid with text and images -->
+<section class="img-section mt-4">
+    <div class="container-fluid px-0">
+        <div class="row g-0">
+            <div class="col-lg-6 p-0 img-box">
+                <img src="https://images.unsplash.com/photo-1600891964092-4316c288032e?q=80&w=2070&auto=format" class="img-fluid w-100" alt="Chef cooking">
+            </div>
+            <div class="col-lg-6 p-0 img-box">
+                <img src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?q=80&w=2065&auto=format" class="img-fluid w-100" alt="Exotic dish">
+            </div>
+            <div class="col-lg-6 p-0 d-flex flex-column justify-content-center align-items-center text-center food-variety-box">
+                <h1 class="begin mb-2">Food variety</h1>
+                <h1 class="menu">OUR MENU</h1>
+                <p class="french px-3">Quisque fermentum nulla vitae sapien aliquam, et egestas sem volutpat. Sed ullamcorper rutrum purus quis temptus Vestibulum vestibulum quis enim a varius.</p>
+                <button class="btn3 mt-3">VIEW MENU</button>
+            </div>
+            <div class="col-lg-6 p-0 img-box">
+                <img src="https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?q=80&w=2070&auto=format" class="img-fluid w-100" alt="Pasta">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!---section 5: Reserve title-->
+<section class="img-section mt-3">
+    <div class="container-fluid">
+        <div class="row py-4">
+            <div class="col-lg-12 text-center">
+                <h3 class="menu pt-4">RESERVE YOUR TABLE</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!----form section (reservation form)-->
+<section class="mb-5">
+    <div class="col-lg-10 m-auto">
+        <div class="row g-3 justify-content-center px-3 px-md-5">
+            <div class="col-sm-6">
+                <input type="text" class="form-control" placeholder="NAME (Required)">
+            </div>
+            <div class="col-sm-6">
+                <input type="email" class="form-control" placeholder="EMAIL (Required)">
+            </div>
+            <div class="col-sm-6">
+                <input type="tel" class="form-control" placeholder="TELEPHONE">
+            </div>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" placeholder="LAST NAME">
+            </div>
+            <div class="col-sm-6">
+                <input type="date" class="form-control" placeholder="DATE">
+            </div>
+            <div class="col-sm-6">
+                <input type="time" class="form-control" placeholder="TIME">
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-12 pt-4">
+        <h6 class="text-center fw-bold">SPECIAL REQUESTS</h6>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-8 col-lg-6 px-3 px-sm-4">
+            <textarea class="form-control text-center w-100" placeholder="Enter Your Request (allergies, celebrations, etc.)" rows="4"></textarea>
+            <div class="text-center py-4">
+                <button class="btn3 px-4">SUBMIT RESERVATION</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--footer section-->
+<footer class="news px-3 px-md-5 py-5 bg-light">
+    <div class="container py-4">
+        <div class="row text-center text-md-start g-4">
+            <!-- COLUMN 1 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <h5 class="logo mb-3">WELCOME TO CINNAMON</h5>
+                <p class="small">Experience fine dining with a blend of elegance and taste. We bring you the best dishes crafted with passion and perfection.</p>
+                <div class="d-flex justify-content-center justify-content-md-start gap-3 mt-4">
+                    <i class="icons fab fa-facebook-f social-icon-fb"></i>
+                    <i class="icons fab fa-twitter social-icon-tw"></i>
+                    <i class="icons fab fa-instagram social-icon-ig"></i>
+                    <i class="icons fab fa-google social-icon-google"></i>
+                </div>
+            </div>
+
+            <!-- COLUMN 2 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <h6 class="pb-2 fw-bold">OPENING HOURS</h6>
+                <p class="small">Fusce aliquam tincidunt hendrerit. Nunc tincidunt id velit sit amet vestibulum. In venenatis tempus odio ut dictum curabitur ac nisl molestie, facilisis nibh ac.</p>
+                <h6 class="pb-1 fw-semibold">LUNCH</h6>
+                <p class="small">Mon to Sun 12:00 to 15:00</p>
+                <h6 class="pb-1 fw-semibold">DINNER</h6>
+                <p class="small mb-0">Mon to Thur 18:00 to 22:30</p>
+                <p class="small mb-0">Fri & Sat 17:30 to 22:30</p>
+                <p class="small">Sunday 18:00 to 21:30</p>
+            </div>
+
+            <!-- COLUMN 3 -->
+            <div class="col-12 col-md-12 col-lg-4">
+                <h6 class="pb-2 fw-bold">NEWSLETTER</h6>
+                <div class="mb-3">
+                    <input type="email" class="form-control footer-input text-center" placeholder="Your email address">
+                </div>
+                <button class="btn3 w-100 mb-4">SIGN UP</button>
+                <h6 class="pb-2 fw-bold pt-3">RESERVATION</h6>
+                <p class="small">Book online or give us a call on 020 3375 1515 between 9.30am–6pm on weekdays, and between 12pm–5pm on weekends.</p>
+            </div>
+        </div>
+    </div>
+    <hr class="my-3">
+    <p class="copyright text-center small mb-0">
+        Copyright © 2026 All Rights Reserved | Designed by DSTech
+    </p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+</html>

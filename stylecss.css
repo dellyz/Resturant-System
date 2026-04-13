@@ -1,0 +1,507 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+/* Social icons top bar */
+.footerup {
+    background: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=2070&auto=format') center/cover no-repeat;
+    padding: 5px 0;
+    color: white;
+    background-color: #2c2c2c;
+    background-blend-mode: overlay;
+}
+
+.icons {
+    font-size: 1.4rem;
+    margin: 0 12px;
+    color: white;
+    transition: transform 0.3s, color 0.3s;
+    cursor: pointer;
+}
+
+.icons:hover {
+    color: #d4af37;
+    transform: translateY(-3px);
+}
+
+/* Social icons in footer */
+.social-icon-fb {
+    color: #3b5998;
+    background: white;
+    padding: 2px;
+    width: 36px;
+    text-align: center;
+}
+
+.social-icon-tw {
+    color: #1DA1F2;
+    background: white;
+    padding: 2px;
+    width:36px;
+    text-align: center;
+}
+
+.social-icon-ig {
+    color: #E4405F;
+    background: white;
+    padding: 2px;
+    width: 36px;
+    text-align: center;
+}
+
+.social-icon-google {
+    color: #DB4437;
+    background: white;
+    padding: 2px;
+    width: 36px;
+    text-align: center;
+}
+
+/* ========== PERFECT NAVBAR STYLES ========== */
+.navbar {
+    background-color:rgb(228, 228, 235) !important;
+    padding: 15px 0;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+    
+}
+
+.navbar .container-fluid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Brand styling - visible on all screens (left on mobile) */
+.navbar-brand.company-brand {
+    font-size: 1.4rem;
+    font-family: "Allerta", sans-serif;
+    font-weight: 700;
+    color: #1e1e1e;
+    text-decoration: none;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    white-space: normal;
+    display: block;
+}
+
+.navbar-brand.company-brand:hover {
+    color: #d4af37;
+}
+
+/* Centered brand for large screens only */
+.center-brand {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.company-brand-centered {
+    font-size: 1.4rem;
+    font-family: "Allerta", sans-serif;
+    font-weight: 700;
+    color: #1e1e1e;
+    text-decoration: none;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    white-space: nowrap;
+}
+
+.company-brand-centered:hover {
+    color: #b8860b;
+}
+
+/* Nav links styling */
+.nav-link {
+    color: #1a1a1a;
+    text-transform: uppercase;
+    font-family: "Allerta", sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 0.85rem;
+    transition: color 0.3s;
+    padding: 8px 16px !important;    
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #b8860b;
+}
+
+/* Reservation button style */
+.search {
+    background: transparent;
+    border: 2px solid #b8860b;
+    padding: 6px 18px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #b8860b;
+    transition: 0.3s;
+    width: 160px;
+}
+
+.search::placeholder {
+    color: #b8860b;
+    font-weight: 500;
+}
+
+.search:hover,
+.search:focus {
+    background: rgb(244, 237, 239);
+    color: white;
+    outline: none;
+}
+
+.reservation-mobile {
+    border: 2px solid #b8860b;
+    margin-top: 10px;
+    display: inline-block;
+    width: 80%;
+
+}
+
+/* Navbar toggler */
+.navbar-toggler {
+    border: none;
+    outline: none;
+    padding: 8px 12px;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=2070&auto=format') center/cover no-repeat;
+    background-size: cover;
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.best {
+    font-family: "Playwrite IE", cursive;
+    color: #f8f9fa;
+    font-size: clamp(1.8rem, 5vw, 2.8rem);
+    margin-bottom: 0;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.cinanon {
+    font-weight: 800;
+    color: white;
+    font-size: clamp(2.5rem, 8vw, 5.5rem);
+    letter-spacing: 3px;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
+    margin-top: 0;
+}
+
+.btn1 {
+    height: 48px;
+    width: 180px;
+    max-width: 80%;
+    border: none;
+    background-color: #1e1e1e;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 1px;
+    transition: 0.3s;
+    font-size: 0.9rem;
+}
+
+.btn1:hover {
+    background-color: #b8860b;
+    transform: scale(1.02);
+}
+
+/* Another section */
+.another {
+    padding: 60px 0;
+    background: #fefaf5;
+}
+
+.begin {
+    color: #b8860b;
+    font-size: clamp(2.2rem, 6vw, 4rem);
+    font-family: "Sacramento", cursive;
+    margin-bottom: 0;
+}
+
+.story {
+    font-weight: 700;
+    color: #1e1e1e;
+    font-size: clamp(1.8rem, 5vw, 3rem);
+    letter-spacing: 2px;
+    margin-top: 0;
+}
+
+.french {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', Geneva, Verdana, sans-serif;
+    line-height: 1.7;
+    font-size: clamp(0.9rem, 3vw, 1rem);
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn2,
+.btn3 {
+    height: 46px;
+    padding: 0 28px;
+    background-color: transparent;
+    color: #1e1e1e;
+    font-weight: 700;
+    border: 2px solid #1e1e1e;
+    transition: 0.3s;
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+}
+
+.btn2:hover,
+.btn3:hover {
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+
+/* Image gallery hover effect */
+.img-box {
+    overflow: hidden;
+}
+
+.img-box img {
+    transition: transform 0.5s ease, filter 0.4s ease;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    min-height: 250px;
+}
+
+.img-box:hover img {
+    transform: scale(1.08);
+    filter: brightness(85%);
+}
+
+/* Menu text section */
+.menu {
+    font-weight: 700;
+    color: #1e1e1e;
+    font-size: clamp(1.6rem, 4vw, 2.5rem);
+    letter-spacing: 2px;
+}
+
+.food-variety-box {
+    background: #fefaf5;
+    min-height: 450px;
+    padding: 40px 20px;
+}
+
+/* Form styling */
+.form-control {
+    border: 1px solid #ddd;
+    padding: 12px 20px;
+    font-size: 0.9rem;
+}
+
+.form-control:focus {
+    border-color: #b8860b;
+    box-shadow: 0 0 0 0.2rem rgba(184, 134, 11, 0.25);
+}
+
+/* Textarea responsive fix */
+textarea.form-control {
+    width: 100%;
+    resize: vertical;
+}
+
+/* Footer styling */
+.news {
+    background-color: #f8f9fa !important;
+}
+
+.logo {
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #b8860b;
+}
+
+.footer-input {
+    padding: 10px 20px;
+}
+
+.copyright {
+    background-color: #2c2c2c;
+    color: #ddd;
+    padding: 16px 0;
+    margin-bottom: 0;
+    font-size: 0.85rem;
+}
+
+hr {
+    opacity: 0.3;
+    margin: 20px 0;
+}
+
+/* ========== RESPONSIVE FIXES ========== */
+
+/* Large screens - brand centered between navlinks */
+@media (min-width: 992px) {
+    .navbar .container-fluid {
+        position: relative;
+    }
+    
+    .navbar-brand.company-brand {
+        display: none;
+    }
+    
+    .me-auto {
+        margin-right: auto !important;
+    }
+    
+    .ms-auto {
+        margin-left: auto !important;
+    }
+    
+    .navbar-nav .nav-link {
+        white-space: nowrap;
+    }
+}
+
+/* Tablet and mobile styles */
+@media (max-width: 991px) {
+    .center-brand {
+        display: none;
+    }
+    
+    .navbar-brand.company-brand {
+        display: block;
+        font-size: 1.2rem;
+    }
+    
+    .navbar-collapse {
+        background: white;
+        padding: 20px;
+        margin-top: 15px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .navbar-nav {
+        text-align: center;
+        width: 100%;
+    }
+    
+    .nav-link {
+        padding: 10px 0 !important;
+        display: inline-block;
+    }
+    
+    .search {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero {
+        min-height: 70vh;
+    }
+    
+    .btn1,
+    .btn2,
+    .btn3 {
+        width: auto;
+        padding: 0 24px;
+    }
+    
+    .img-box img {
+        height: auto !important;
+        min-height: 200px;
+    }
+    
+    .row.g-4>div {
+        text-align: center;
+    }
+    
+    .d-flex.justify-content-md-start {
+        justify-content: center !important;
+    }
+    
+    /* Textarea full width on mobile */
+    textarea.form-control {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar-brand.company-brand {
+        font-size: 1rem;
+        line-height: 1.3;
+    }
+    
+    .btn3 {
+        width: 80%;
+    }
+    
+    .footerup .icons {
+        margin: 0 8px;
+        font-size: 1.2rem;
+    }
+    
+    .french br {
+        display: none;
+    }
+    
+    textarea.form-control {
+        font-size: 0.9rem;
+        padding: 10px 15px;
+    }
+    
+    .food-variety-box {
+        padding: 30px 15px;
+    }
+}
+
+/* Image rows fix */
+.img-section .container-fluid .row [class*="col-"] {
+    padding: 0;
+}
+
+/* Reservation input row spacing */
+.row.m-auto.px-5 {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+
+@media (min-width: 768px) {
+    .row.m-auto.px-5 {
+        padding-left: 3rem !important;
+        padding-right: 3rem !important;
+    }
+}
+
+/* Ensure navbar collapse doesn't overflow */
+.navbar-collapse {
+    max-height: 80vh;
+    overflow-y: auto;
+}
